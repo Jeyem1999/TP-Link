@@ -1,0 +1,14 @@
+##TP LINK KAPA-KAPA SESSION##
+
+#Trunk configuration
+
+conf
+switchport general allowed vlan (ID) tagged
+switchport general allowed vlan all
+
+#Access configuration
+
+conf t
+switchport general allowed  vlan (ID) untagged
+switchport pvid (id)
+
